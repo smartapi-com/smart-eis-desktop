@@ -20,17 +20,17 @@ Figure 2 and Figure 3 show the entity-relationship diagram of the HR system, whi
 **Figure 3: Entity Relationship Diagram of the HR System - Business**
 
 In order to develop the HR system using Smart-EIS, the following steps shall be performed: 
-1-	Create a database physical structure for the business domain tables only. There is no need for security tables since they are already bundled in Smart-EIS.
-2-	Add only one single dependency to a new maven project, as the following:
-
+1. Create a database physical structure for the business domain tables only. There is no need for security tables since they are already bundled in Smart-EIS.
+2. Add only one single dependency to a new maven project, as the following:
+```xml
 <!-- https://mvnrepository.com/artifact/com.jalalkiswani/smart-eis-desktop -->
 <dependency>
     <groupId>com.jalalkiswani</groupId>
     <artifactId>smart-eis-desktop</artifactId>
     <version>0.0.9-6</version>
 </dependency>
-
-3-	Use src/main/resources/meta/menu.xml file that contains the following sections:
+```
+3. Use src/main/resources/meta/menu.xml file that contains the following sections:
 <main-menu>
 	<menu name="HR Config">
 		<menu-item name="Departments">
@@ -61,13 +61,13 @@ In order to develop the HR system using Smart-EIS, the following steps shall be 
 	</menu>
 </main-menu>
 
-4-	Use the Database Analyzer to create src/main/resources/meta/meta.xml, as seen in Figure 4
+4. Use the Database Analyzer to create src/main/resources/meta/meta.xml, as seen in Figure 4
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/4.png "Use Case Diagram of the HR System")
 
 **Figure 4: The Database Analyzer UI View**
 
-5-	Create a main class as the following:
+5. Create a main class as the following:
 
 package com.jalalkiswani.demo;
 
