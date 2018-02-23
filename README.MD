@@ -5,6 +5,7 @@ This article presents details of developing a simple Human Resource(HR) manageme
 
 Figure 1 shows the use-case diagram to clarify the high-level requirements of the HR system.
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/1.png "Use Case Diagram of the HR System")
+
 **Figure 1: Use Case Diagram of the HR System.**
 
 
