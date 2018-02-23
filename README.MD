@@ -12,9 +12,11 @@ Figure 1 shows the use-case diagram to clarify the high-level requirements of th
 Figure 2 and Figure 3 show the entity-relationship diagram of the HR system, which shall contain two parts, one for the security and the other for the HR business logic.
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/2.png "Entity Relationship Diagram of the HR System – Security")
+
 **Figure 2: Entity Relationship Diagram of the HR System – Security**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/3.png "Entity Relationship Diagram of the HR System - Business")
+
 **Figure 3: Entity Relationship Diagram of the HR System - Business**
 
 In order to develop the HR system using Smart-EIS, the following steps shall be performed: 
@@ -59,9 +61,11 @@ In order to develop the HR system using Smart-EIS, the following steps shall be 
 	</menu>
 </main-menu>
 
-4-	Use the Database Analyzer to create src/main/resources/meta/meta.xml, as seen in Figure ‎4
+4-	Use the Database Analyzer to create src/main/resources/meta/meta.xml, as seen in Figure 4
 
-Figure ‎4: The Database Analyzer UI View
+![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/4.png "Use Case Diagram of the HR System")
+
+**Figure 4: The Database Analyzer UI View**
 
 5-	Create a main class as the following:
 
@@ -81,19 +85,25 @@ These were the only steps needed to build the HR system and have it ready to be 
 Figure 5: Log-in Dialog 
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/6.png "Use Case Diagram of the HR System")
+
 **Figure 6: Main Menu UI View for the Current User of the HR System**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/7.png "Use Case Diagram of the HR System")
+
 **Figure 7: Security Configuration UI View of the HR System**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/8.png "Use Case Diagram of the HR System")
+
 **Figure 8: Database Backup UI View of the HR System**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/9.png "Use Case Diagram of the HR System")
+
 **Figure 9: Dialog to Configure HR Degrees of the HR System**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/10.png "Use Case Diagram of the HR System")
+
 **Figure 10: UI View to Add Employees of the HR System**
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/11.png "Use Case Diagram of the HR System")
+
 **Figure 11: Managing an Employee's Record Tab of the HR System**
