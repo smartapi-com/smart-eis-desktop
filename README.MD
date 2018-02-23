@@ -61,7 +61,7 @@ In order to develop the HR system using Smart-EIS, the following steps shall be 
 		</menu-item>
 	</menu>
 </main-menu>
-```xml
+```
 4. Use the Database Analyzer to create src/main/resources/meta/meta.xml, as seen in Figure 4
 
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/4.png "Use Case Diagram of the HR System")
