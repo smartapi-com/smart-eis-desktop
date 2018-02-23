@@ -3,10 +3,9 @@ This article presents details of developing a simple Human Resource(HR) manageme
 2. **HR Manager**: who shall be able to manage the system HR configurations, such as job-titles and departments, 
 3. **HR Officer**: who shall handle the daily work of HR management, such as input and maintain employee’s data.
 
-**Figure ‎1 shows the use-case diagram to clarify the high-level requirements of the HR system.**
-Inline-style: 
+Figure 1 shows the use-case diagram to clarify the high-level requirements of the HR system.
 ![alt text](https://github.com/kiswanij/Smart-EIS-HR-example/blob/master/images/1.png "Use Case Diagram of the HR System")
-
+**Figure 1: Use Case Diagram of the HR System.**
 
 
 Figure ‎2 and Figure ‎3 show the entity-relationship diagram of the HR system, which shall contain two parts, one for the security and the other for the HR business logic.
