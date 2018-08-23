@@ -1,3 +1,8 @@
+** Important: ** All my repositories are currently under extensive development and refactoring due to working on my Ph.D diseertation. Please come back later for more enhanced documentation and tutorials.  
+Thanks!   
+**Jalal**.
+
+
 This article presents details of developing a simple Human Resource(HR) management system based on Smart-EIS framework. This system is assumed to be able to manage basic employee’s information for profiling purposes. In addition, the system shall support three user roles: 
 1. **System Admin**: who shall manage the system security and create database backups
 2. **HR Manager**: who shall be able to manage the system HR configurations, such as job-titles and departments, 
