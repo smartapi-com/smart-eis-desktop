@@ -3,14 +3,14 @@
   <parent>
     <groupId>com.jalalkiswani</groupId>
     <artifactId>jk-maven-parent</artifactId>
-	<version>1.0.1-BETA-SNAPSHOT</version>
+	<version>1.0.1-BETA-2-SNAPSHOT</version>
   </parent>
   <artifactId>jk-smart-desktop-example</artifactId>
   <dependencies>
   	<dependency>
   		<groupId>com.jalalkiswani</groupId>
   		<artifactId>jk-smart-desktop</artifactId>
-  		<version>1.0.1-BETA-SNAPSHOT</version>
+  		<version>1.0.1-BETA-2-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 </project>
