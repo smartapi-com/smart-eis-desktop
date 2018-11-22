@@ -5,7 +5,7 @@
     <artifactId>jk-maven-parent</artifactId>
 	<version>1.0.1-BETA-2-SNAPSHOT</version>
   </parent>
-  <artifactId>jk-smart-desktop-example</artifactId>
+  <artifactId>jk-desktop-example</artifactId>
   <dependencies>
   	<dependency>
   		<groupId>com.jalalkiswani</groupId>
