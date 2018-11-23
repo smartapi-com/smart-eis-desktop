@@ -1,16 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.jalalkiswani</groupId>
-    <artifactId>jk-maven-parent</artifactId>
-	<version>1.0.1-BETA-2-SNAPSHOT</version>
-  </parent>
-  <artifactId>jk-desktop-example</artifactId>
-  <dependencies>
-  	<dependency>
-  		<groupId>com.jalalkiswani</groupId>
-  		<artifactId>jk-smart-desktop</artifactId>
-  		<version>1.0.1-BETA-2-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jalalkiswani</groupId>
+	<artifactId>jk-desktop-example</artifactId>
+	<version>1.0.1-BETA-3-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>com.jalalkiswani</groupId>
+			<artifactId>jk-desktop</artifactId>
+			<version>1.0.1-BETA-3-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
