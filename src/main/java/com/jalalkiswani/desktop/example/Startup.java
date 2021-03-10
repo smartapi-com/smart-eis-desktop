@@ -16,7 +16,7 @@
  */
 package com.jalalkiswani.desktop.example;
 
-import com.jk.desktop.JKDesktopApplication;
+import com.jk.framework.application.ApplicationManager;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -30,6 +30,7 @@ public class Startup {
 	 * @param args the arguments
 	 */
 	public static void main(String[] args) {
-		JKDesktopApplication.start();
+		ApplicationManager instance = ApplicationManager.getInstance();
+		instance.start();
 	}
 }
