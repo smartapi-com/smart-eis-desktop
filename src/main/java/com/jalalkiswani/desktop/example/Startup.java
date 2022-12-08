@@ -18,7 +18,6 @@ package com.jalalkiswani.desktop.example;
 
 import com.jk.framework.application.ApplicationManager;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Startup.
  */
@@ -30,6 +29,7 @@ public class Startup {
 	 * @param args the arguments
 	 */
 	public static void main(String[] args) {
+		//TODO: Not working, Jalal needs to check it
 		ApplicationManager instance = ApplicationManager.getInstance();
 		instance.start();
 	}

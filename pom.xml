@@ -6,10 +6,25 @@
 	<artifactId>smart-eis-desktop-example</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.jalalkiswani/smart-eis-desktop -->
 		<dependency>
 			<groupId>com.jalalkiswani</groupId>
-			<artifactId>jk-smart-desktop</artifactId>
-			<version>1.0.0</version>
+			<artifactId>smart-eis-desktop</artifactId>
+			<version>0.0.9-6</version>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<!-- http://maven.apache.org/plugins/maven-compiler-plugin/ -->
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
